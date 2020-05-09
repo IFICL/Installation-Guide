@@ -71,7 +71,7 @@ ____________________________________________________________
   ./Anaconda3-2020.02-Linux-x86_64.sh
   ```
 
-- Conda init: if choose false, you need to copy the content into `.bashrc` and `.zshrc` and `source .bashrc .zshrc`:
+- Conda init: if choose false, you need to copy the content into `.bashrc` and `.zshrc` and `source .bashrc .zshrc` (Do not forget to change the path to your installation path):
   ```
   # >>> conda initialize >>>
   # !! Contents within this block are managed by 'conda init' !!

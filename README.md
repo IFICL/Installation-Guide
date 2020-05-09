@@ -120,9 +120,9 @@ ____________________________________________________________
   ```
 
 - Git config:
-```
-git config --global user.name "Your Name"
-git config --global user.email "Youremail@domain.com"
-git config --list
-ssh -T git@github.com
-```
+  ```
+  git config --global user.name "Your Name"
+  git config --global user.email "Youremail@domain.com"
+  git config --list
+  ssh -T git@github.com
+  ```

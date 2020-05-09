@@ -109,3 +109,20 @@ ____________________________________________________________
   # pytorch
   conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
   ```
+
+## Git & SSH
+- Generate SSH key: `id_rsa.pub` is public key for access other server and `authorized_keys` is to store the public key of other machines to access this server.
+  ```
+  cd ~
+  ssh-keygen -t rsa -C "youremail@domain.com"
+  cd .ssh
+  touch authorized_keys
+  ```
+
+- Git config:
+```
+git config --global user.name "Your Name"
+git config --global user.email "Youremail@domain.com"
+git config --list
+ssh -T git@github.com
+```

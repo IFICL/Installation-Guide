@@ -15,6 +15,7 @@ ____________________________________________________________
   sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
   ```
 
+- Install zsh-syntax-highlighting: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 
 ## Step 2: Tmux config
 - Create `.tmux.conf` file: `touch .tmux.conf`

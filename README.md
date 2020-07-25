@@ -56,6 +56,8 @@ ____________________________________________________________
   # set -g mouse-resize-pane on
   # Enable mouse mode (tmux 2.1 and above)
   set -g mouse on
+  # Set default term to xterm
+  set -g default-terminal xterm-256color
   ```
 
 - To apply the configure, first close all the tmux sessions and then type the command to activate: `tmux -f .tmux.conf`
